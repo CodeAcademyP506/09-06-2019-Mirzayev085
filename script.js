@@ -17,10 +17,11 @@ myContainer.style.height = "600px";
 //MY BG 
 
 var myBg = document.getElementById("myBg");
-myBg.style.paddingTop = "90px"
+myBg.style.paddingTop = "20px"
 myBg.style.width = "100%";
 myBg.style.height = "100px";
 myBg.style.backgroundColor = "green";
+myBg.style.position = "relative";
 
 
 
@@ -34,7 +35,12 @@ myHeader.style.height = "100px";
 myHeader.style.backgroundColor = "white";
 myHeader.style.display = "flex";
 myHeader.style.alignItems = "center";
-myHeader.style.justifyContent = "space-around"
+myHeader.style.justifyContent = "space-around";
+myHeader.style.position = "absolute";
+myHeader.style.marginLeft = "125px";
+myHeader.style.marginTop = "48px";
+myHeader.style.boxShadow = "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)";
+
  
 
 
@@ -53,7 +59,8 @@ var myInput = document.getElementById("input");
 
 myInput.style.width = "200px";
 myInput.style.height = "34px";
-myInput.style.border = "1 px solid black"
+myInput.style.border = "1 px solid black";
+
 
 //MY BUTTON  
 
@@ -61,14 +68,16 @@ var myButton = document.getElementById("button");
 
 myButton.style.width = "150px";
 myButton.style.height = "40px";
+myButton.style.color = "white"
 myButton.style.backgroundColor = "orange";
-myButton.style.border = "0px"
+myButton.style.border = "0px";
+myButton.style.boxShadow = "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)";
 
 
 //MY HEADLINE
 
 var myHeadline = document.getElementById("hedlayn");
-
+myHeadline.style.paddingTop = "90px"
 myHeadline.style.textAlign = "center";
 myHeadline.style.margin = "auto";
 myHeadline.style.width = "30%";
