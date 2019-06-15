@@ -20,8 +20,10 @@ var myBg = document.getElementById("myBg");
 myBg.style.paddingTop = "20px"
 myBg.style.width = "100%";
 myBg.style.height = "100px";
-myBg.style.backgroundColor = "green";
 myBg.style.position = "relative";
+myBg.style.backgroundImage = "url(222.jpg)";
+myBg.style.backgroundRepeat = "no-repeat";
+myBg.style.backgroundSize = "cover";
 
 
 
@@ -37,7 +39,7 @@ myHeader.style.display = "flex";
 myHeader.style.alignItems = "center";
 myHeader.style.justifyContent = "space-around";
 myHeader.style.position = "absolute";
-myHeader.style.marginLeft = "125px";
+myHeader.style.marginLeft = "135px";
 myHeader.style.marginTop = "48px";
 myHeader.style.boxShadow = "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)";
 
