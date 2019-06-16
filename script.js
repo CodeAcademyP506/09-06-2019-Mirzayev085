@@ -39,7 +39,7 @@ myHeader.style.display = "flex";
 myHeader.style.alignItems = "center";
 myHeader.style.justifyContent = "space-around";
 myHeader.style.position = "absolute";
-myHeader.style.marginLeft = "135px";
+myHeader.style.marginLeft = "157px";
 myHeader.style.marginTop = "48px";
 myHeader.style.boxShadow = "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)";
 
