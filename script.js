@@ -9,7 +9,7 @@ var myContainer = document.getElementById("container");
 
 myContainer.style.backgroundColor = "#F5F5F5";
 myContainer.style.width = "100%";
-myContainer.style.height = "600px";
+myContainer.style.height = "100%";
 
 
 
@@ -83,11 +83,13 @@ myHeadline.style.paddingTop = "90px"
 myHeadline.style.textAlign = "center";
 myHeadline.style.margin = "auto";
 myHeadline.style.width = "30%";
-myHeadline.style.marginTop = "70px"
+myHeadline.style.marginTop = "70px";
+myHeadline.style.fontSize = "22px"
 
 var myP = document.querySelector("p");
 
-myP.style.color = "grey"
+myP.style.color = "grey";
+myP.style.fontSize = "18px"
 
 var myBoxes = document.getElementById("myboxes");
 
@@ -104,9 +106,10 @@ var myQutu = document.getElementsByClassName("mybox");
 
 for(var i = 0; i<myQutu.length; i++){
     myQutu[i].style.width = "250px";
-    myQutu[i].style.height = "250px";
+    myQutu[i].style.height = "280px";
     myQutu[i].children[2].style.color = "grey";  
-    myQutu[i].style.textAlign = "center"
+    myQutu[i].style.textAlign = "center";
+    myQutu[i].style.boxShadow = "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)";
 }
 
 
